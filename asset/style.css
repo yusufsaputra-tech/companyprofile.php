@@ -1,0 +1,119 @@
+/*Navvbar*/
+.navbar{
+border-bottom: 1px solid #C0C0C0;
+background-color: #000000;
+}
+
+.navbar-brand{
+	font-family: viga;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-right: 2px;
+	text-shadow: 0 0 0.5px #000;
+}
+
+/*Utility*/
+.tombol{
+	text-transform: uppercase;
+	border-radius: 10px;
+	font-family: arial;
+	border-color: black;
+	background-color: black;
+}
+
+
+/*Desktop*/
+@media (min-width: 992px) {
+	.nav-link{
+	font-family: viga;
+	text-transform: uppercase;
+	margin-right: 10px; 
+	font-size: 15px;
+	text-shadow: 0 0 0.5px #000;
+}
+
+	.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid #0000CD;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px; 
+	margin-bottom: -8px;
+}
+}
+
+
+.jumbotron3 .container .p{
+	font-family: viga;
+	font-size: 35px;
+}
+
+
+.jumbotron {
+	text-align: justify;
+	background-color:#FFFFFF;
+	padding-top: 40px;
+	padding-bottom: -25px;
+}
+
+.jumbotron-fluid{
+	padding-top: auto;	
+}
+
+
+.row .card-panel{
+background-color: #E0FFFF;
+}
+
+.list{
+text-align: left; 
+}
+
+/*Jumbotron*/
+.jumbotron1	{
+	text-align: center;
+	background-color:#FFFFFF;
+	padding-top: 40px; 
+	padding-bottom: -25px; 
+}
+
+/*Panel*/
+.info-panel{
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	background-color:transparent;
+	padding: 15px;
+	border-bottom: 3px solid transparent;
+	border-radius: 5px;
+}
+
+.panel-info{
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	background-color:transparent;
+	padding: 15px;
+	border-bottom: 3px solid transparent;
+	border-radius: 5px;
+}
+
+.header, span{  /*Group Selector*/
+	padding-top: -50px;
+	font-size: 24px;
+	text-align: center;
+	font-family:viga;
+}
+
+.jumbotron2{
+	background-color:#1E90FF;
+	text-align:justify-all;
+	font-size: 15px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	text-shadow: 0 0 0.5px #000;
+	margin-bottom: 25px;
+
+}
+
+.footer-copyright{
+	background-color: #0000CD;
+	margin-top: -50px;
+}
